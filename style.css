@@ -1,5 +1,5 @@
 body{
-    background-color: #f5f5f7;
+    background-color: #002339;
     font-family: sans-serif;
 }
 .container{
@@ -23,7 +23,7 @@ body{
 #main{
     margin-right: 0px ;
     border: 0;
-    background-color: #f5f5f7;
+    background-color: #002339;
 }
 #mot {
     text-align: center;
@@ -57,12 +57,14 @@ body{
     border: 1px solid black;
     border-radius: 10px;
     position: relative;
-    background-color: #e8f5ef;
+    background-color: #4a6474;
     padding: 10px;
+    font-size: 1.2  em;
+    font-weight: bold;
 }
 p {
     font-size: 1.1em;
-    color: #1c1c1c;
+    color: #fff;
 }
 #seconde_cont{
     display: flex;
@@ -76,8 +78,9 @@ p {
     width: 98.4%;
     margin-top: 5px;
     height: 230px;
-    background-color: #e8f5ef;
+    background-color: #4a6474;
     border-radius: 5px;
+    color: #fff;
 }
 
 .h1sup{
@@ -86,7 +89,7 @@ p {
     color: #fff;
     margin-left: 8px;
     padding: 3px;
-    background-color:#416b57;
+    background-color:#002339;
     width: 160px;
 }
 ul{
@@ -98,7 +101,7 @@ ul{
 .des_li{
     font-size: 1.2  em;
     font-weight: bold;
-    color: rgb(134, 57, 57);
+    color: #000;
 }
 #copy{
     border: 1px solid black;
@@ -111,6 +114,10 @@ ul{
     background-color: #fdfffe;
     cursor: pointer;
 }
+#copy img{
+    width: 30px;
+    height: 30px;
+}
 #pro{
     background-color: #fdfffe;
     color: white;
@@ -122,10 +129,6 @@ ul{
     bottom: 10px;
     right: 80px;
     cursor: pointer;
-}
-#copy img{
-    width: 30px;
-    height: 30px;
 }
 #copyP{
     border: 1px solid black;
