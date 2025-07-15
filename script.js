@@ -66,13 +66,13 @@ proBtn.addEventListener("click",()=>{
 function copyText(){
     let text=deffinition.textContent;
     navigator.clipboard.writeText(text);
-        alert("text Copyed");
+        alert("text Copied");
 }
 function copyTextP(){
     let text=posList.textContent;
     navigator.clipboard.writeText(text)
     .then(res=>{
-        alert("text Copyed");
+        alert("text Copied");
     })
 }
 copy.addEventListener("click",copyText);
