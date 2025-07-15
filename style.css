@@ -1,0 +1,144 @@
+body{
+    background-color: #f5f5f7;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    padding: 3px;
+    margin: 0 auto;
+
+}
+#h1_one{
+    font-weight: 700;
+    font-size: 2.5em;
+    color: #4f4f4f;
+    font-family:  'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+.container h1 span{
+    color: #019f55;
+    border-bottom: 4px solid #019f55;
+    padding-bottom: 7px;
+}
+#main{
+    margin-right: 0px ;
+    border: 0;
+    background-color: #f5f5f7;
+}
+#mot {
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+#WordInput{
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    font-weight: 300;
+    width: 450px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 50px;
+    outline: 0;
+}
+#mot button{
+    height: 60px;
+    width: 60px;
+    padding: 10px 15px;
+    font-size: 1.2em;
+    border-radius: 50px;
+    border: 1px solid black;
+    background-color: #fff;
+    cursor: pointer;
+}
+#definition{
+    height: 110px;
+    width: 98%;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: relative;
+    background-color: #e8f5ef;
+    padding: 10px;
+}
+p {
+    font-size: 1.1em;
+    color: #1c1c1c;
+}
+#seconde_cont{
+    display: flex;
+    justify-content: center;
+}
+#partOfSpeech{
+    position: absolute;
+    left: 10px;
+    margin-right: 10px;
+    border: 1px solid black;
+    width: 98.4%;
+    margin-top: 5px;
+    height: 230px;
+    background-color: #e8f5ef;
+    border-radius: 5px;
+}
+
+.h1sup{
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 8px;
+    padding: 3px;
+    background-color:#416b57;
+    width: 160px;
+}
+ul{
+    line-height: 30px;
+    list-style: none;
+    padding: 5px;
+    font-weight: bold;
+}
+.des_li{
+    font-size: 1.2  em;
+    font-weight: bold;
+    color: red;
+}
+#copy{
+    border: 1px solid black;
+    margin-right: 8px;
+    border-radius: 50px;
+    position: absolute;
+    padding: 12px;
+    bottom: 10px;
+    right: 10px;
+    background-color: #fdfffe;
+    cursor: pointer;
+}
+#pro{
+    background-color: #fdfffe;
+    color: white;
+    border: 1px solid black;
+    padding: 20px;
+    margin-left: 10px;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 10px;
+    right: 80px;
+    cursor: pointer;
+}
+#copy img{
+    width: 30px;
+    height: 30px;
+}
+#copyP{
+    border: 1px solid black;
+    margin-right: 10px;
+    border-radius: 50px;
+    position: absolute;
+    padding: 12px;
+    bottom: 10px;
+    right: 10px;
+    background-color: #fdfffe;
+    cursor: pointer;
+}
+#copyP img{
+    width: 30px;
+    height: 30px;
+}

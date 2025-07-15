@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dictionry</title>
+</head>
+<body>
+    <div class="container">
+        <h1 id="h1_one">Welcome To Your <br><span>Dictionary</span></h1>
+        <div id="main">
+            <div id="mot">
+                <input type="text" id="WordInput" placeholder="Enter Word...">
+                <button onclick="getDefiniton()">🔎</button>
+            </div>
+            <div id="definition"> 
+                <p id="def"></p>
+                <button id="pro">🔊</button>
+                <button id="copy"><img src="images/copy.png"></button>
+            </div>
+            <div id="seconde_cont">
+                <div id="partOfSpeech">
+                    <h1 class="h1sup">Part Of Speech </h1>
+                    <ul id="posList"></ul>
+                    <button id="copyP"><img src="images/copy.png"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
