@@ -98,7 +98,7 @@ ul{
 .des_li{
     font-size: 1.2  em;
     font-weight: bold;
-    color: red;
+    color: rgb(134, 57, 57);
 }
 #copy{
     border: 1px solid black;
