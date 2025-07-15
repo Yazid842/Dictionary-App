@@ -91,6 +91,8 @@ p {
     padding: 3px;
     background-color:#002339;
     width: 160px;
+    border-radius: 20px;
+    padding: 5px;
 }
 ul{
     line-height: 30px;
